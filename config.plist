@@ -517,8 +517,6 @@
 		<string>EFI</string>
 		<key>HibernationFixup</key>
 		<true/>
-		<key>Legacy</key>
-		<string>PBR</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Secure</key>
@@ -530,7 +528,7 @@
 		<key>Timeout</key>
 		<integer>5</integer>
 		<key>XMPDetection</key>
-		<integer>2</integer>
+		<string>Yes</string>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for Broadwell graphics that are natively supported</string>
@@ -553,20 +551,23 @@
 				</data>
 			</dict>
 		</array>
-		<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+		<key>Properties</key>
 		<dict>
-			<key>AAPL,slot-name</key>
-			<string>Internal@0,27,0</string>
-			<key>device_type</key>
-			<string>Audio device</string>
-			<key>hda-gfx</key>
-			<string>onboard-2</string>
-			<key>layout-id</key>
-			<data>
-			HAAAAA==
-			</data>
-			<key>model</key>
-			<string>Wildcat Point-LP High Definition Audio Controller</string>
+			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,27,0</string>
+				<key>device_type</key>
+				<string>Audio device</string>
+				<key>hda-gfx</key>
+				<string>onboard-2</string>
+				<key>layout-id</key>
+				<data>
+				NwAAAA==
+				</data>
+				<key>model</key>
+				<string>Wildcat Point-LP High Definition Audio Controller</string>
+			</dict>
 		</dict>
 		<key>Audio</key>
 		<dict>
@@ -595,8 +596,6 @@
 	</array>
 	<key>GUI</key>
 	<dict>
-		<key>#ScreenResolution</key>
-		<string>1920x1080</string>
 		<key>ConsoleMode</key>
 		<string>Max</string>
 		<key>Custom</key>
@@ -663,11 +662,13 @@
 		<dict>
 			<key>Custom</key>
 			<data>
-			quyqqqqq+h+qqrrrrrrrrrrrX6zqykqqqqqqqqqqqqqqqqqqqqqr
-			vqv1yqqqveD/Huo=
+			AP///////wAGEHycAAAAAAAXAQSQHxFgAm+xp1VMniUMUFQAAAAB
+			AQEBAQEBAQEBAQEBAQEB5FwAoKCgEVAwICMANq4QAAAaAAAAAAAA
+			AAAAAAAAAAAAAAAAAAAA/gBMRyBEaXNwbGF5CiAgAAAA/gBMUDE0
+			MFFIMS1TUEEyAKA=
 			</data>
 			<key>HorizontalSyncPulseWidth</key>
-			<string>0x40</string>
+			<string>0x20</string>
 			<key>Inject</key>
 			<true/>
 			<key>ProductID</key>

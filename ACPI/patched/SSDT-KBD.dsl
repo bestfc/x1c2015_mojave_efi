@@ -88,8 +88,8 @@
                 "EdgeBottom", 0,
                 "FingerZ", 30,
                 "MaxTapTime", 100000000,
-                "MouseMultiplierX", 2,
-                "MouseMultiplierY", 2,
+                "MouseMultiplierX", 10,
+                "MouseMultiplierY", 10,
                 "MouseScrollMultiplierX", 2,
                 "MouseScrollMultiplierY", 2,
                 //"TrackpointScrollYMultiplier", 1, //Change this value to 0xFFFF in order to inverse the vertical scroll direction of the Trackpoint when holding the middle mouse button.
