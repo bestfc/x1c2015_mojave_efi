@@ -511,24 +511,12 @@
 	<dict>
 		<key>Arguments</key>
 		<string>dart=0 nv_disable=1 -v debug=0x100 -alcoff kext-dev-mode=1</string>
-		<key>DefaultLoader</key>
-		<string>/EFI/CLOVER/CLOVERX64.efi</string>
 		<key>DefaultVolume</key>
-		<string>EFI</string>
-		<key>HibernationFixup</key>
-		<true/>
+		<string>hackintohaha</string>
 		<key>NeverHibernate</key>
 		<true/>
-		<key>Secure</key>
-		<false/>
-		<key>SkipHibernateTimeout</key>
-		<true/>
-		<key>StrictHibernate</key>
-		<true/>
 		<key>Timeout</key>
-		<integer>5</integer>
-		<key>XMPDetection</key>
-		<string>Yes</string>
+		<integer>3</integer>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for Broadwell graphics that are natively supported</string>
@@ -551,24 +539,6 @@
 				</data>
 			</dict>
 		</array>
-		<key>Properties</key>
-		<dict>
-			<key>PciRoot(0x0)/Pci(0x1b,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>Internal@0,27,0</string>
-				<key>device_type</key>
-				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-2</string>
-				<key>layout-id</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>model</key>
-				<string>Wildcat Point-LP High Definition Audio Controller</string>
-			</dict>
-		</dict>
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
