@@ -449,35 +449,11 @@
 					WFE2OQA=
 					</data>
 				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change AZAL to HDEF</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					QVpBTA==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HDAS to HDEF</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERFRg==
-					</data>
-				</dict>
 			</array>
+			<key>SlpSmiAtWake</key>
+			<true/>
+			<key>SuspendOverride</key>
+			<true/>
 		</dict>
 		<key>DropTables</key>
 		<array>
@@ -513,10 +489,16 @@
 		<string>dart=0 nv_disable=1 -v debug=0x100 -alcoff kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>hackintohaha</string>
+		<key>timeout</key>
+		<integer>2</integer>
+		<key>HibernationFixup</key>
+		<true/>
 		<key>NeverHibernate</key>
 		<true/>
-		<key>Timeout</key>
-		<integer>3</integer>
+		<key>SkipHibernateTimeout</key>
+		<true/>
+		<key>StrictHibernate</key>
+		<true/>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for Broadwell graphics that are natively supported</string>

@@ -53,7 +53,7 @@ DefinitionBlock("", "SSDT", 2, "HACK", "_X1CG3", 0)
     #include "SSDT-IMEI.dsl"
     // #include "SSDT-HDEF.dsl"
     // #include "SSDT-HDAU.dsl"
-    #include "SSDT-ALC3232.dsl"
+    // #include "SSDT-ALC3232.dsl"
 
 }
 //EOF
