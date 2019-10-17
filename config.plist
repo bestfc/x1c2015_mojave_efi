@@ -14,6 +14,8 @@
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>FixHPET</key>
 				<true/>
+				<key>FixHeaders</key>
+				<true/>
 				<key>FixIPIC</key>
 				<true/>
 				<key>FixMutex</key>
@@ -449,6 +451,20 @@
 					WFE2OQA=
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EHC2 to EH02</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUhDMg==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUgwMg==
+					</data>
+				</dict>
 			</array>
 			<key>SlpSmiAtWake</key>
 			<true/>
@@ -489,8 +505,6 @@
 		<string>dart=0 nv_disable=1 -v debug=0x100 -alcoff kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>hackintohaha</string>
-		<key>timeout</key>
-		<integer>2</integer>
 		<key>HibernationFixup</key>
 		<true/>
 		<key>NeverHibernate</key>
@@ -499,6 +513,8 @@
 		<true/>
 		<key>StrictHibernate</key>
 		<true/>
+		<key>timeout</key>
+		<integer>2</integer>
 	</dict>
 	<key>Comment</key>
 	<string>This file is for Broadwell graphics that are natively supported</string>
