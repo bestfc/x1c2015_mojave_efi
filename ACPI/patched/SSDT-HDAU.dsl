@@ -14,7 +14,7 @@
         If (!Arg2) { Return (Buffer() { 0x03 } ) }
         Local0 = Package()
         {
-            "layout-id", Buffer(4) { 55, 0, 0, 0 },
+            "layout-id", Buffer(4) { 28, 0, 0, 0 },
             "hda-gfx", Buffer() { "onboard-2" },
         }
         If (CondRefOf(\RMCF.AUDL))
